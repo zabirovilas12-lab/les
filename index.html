@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>АкваЛес | Копка колодцев и водоснабжение</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-flex">
+        <div class="logo">
+          <h1>АкваЛес</h1>
+          <p>чистая вода из глубины</p>
+        </div>
+        <div class="nav-links">
+          <a href="#home">Главная</a>
+          <a href="#services">Услуги</a>
+          <a href="#works">Наши работы</a>
+          <a href="#faq">Вопросы</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#formBlock">Контакты</a>
+        </div>
+        <div class="header-contacts">
+          <a href="tel:+79774448577"><i class="fas fa-phone-alt"></i> +7 (977) 444-85-77</a>
+          <button class="contact-btn" id="openModalBtn">Заявка</button>
+        </div>
+        <div class="mobile-toggle" id="mobileToggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home">Главная</a></li>
+      <li><a href="#services">Услуги</a></li>
+      <li><a href="#works">Наши работы</a></li>
+      <li><a href="#faq">Вопросы</a></li>
+      <li><a href="#reviews">Отзывы</a></li>
+      <li><a href="#formBlock">Контакты</a></li>
+    </ul>
+  </div>
+
+  <section id="home" class="hero-center">
+    <div class="container">
+      <h2>Вода, которой можно доверять</h2>
+      <p>Профессиональная копка колодцев, чистка, установка септиков и водоснабжение участков под ключ</p>
+      <button class="hero-btn" id="heroModalBtn">Получить консультацию</button>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-title">
+        <h3>Наши услуги</h3>
+      </div>
+      <div class="services-grid">
+        <div class="service-item">
+          <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
+          <h4>Копка колодцев</h4>
+          <p>Глубина до 25 метров, бетонные кольца, гидроизоляция, глиняный замок</p>
+          <div class="price-tag">от 79 900 ₽</div>
+          <button class="order-small orderBtn">Заказать</button>
+        </div>
+        <div class="service-item">
+          <div class="service-icon"><i class="fas fa-broom"></i></div>
+          <h4>Чистка колодцев</h4>
+          <p>Профессиональная чистка, удаление ила, песка, дезинфекция, восстановление дебита</p>
+          <div class="price-tag">от 12 000 ₽</div>
+          <button class="order-small orderBtn">Заказать</button>
+        </div>
+        <div class="service-item">
+          <div class="service-icon"><i class="fas fa-toilet"></i></div>
+          <h4>Установка септиков</h4>
+          <p>Монтаж автономных канализаций, септиков любых типов под ключ с гарантией</p>
+          <div class="price-tag">от 45 000 ₽</div>
+          <button class="order-small orderBtn">Заказать</button>
+        </div>
+        <div class="service-item">
+          <div class="service-icon"><i class="fas fa-water-pump"></i></div>
+          <h4>Монтаж насосов</h4>
+          <p>Установка глубинных насосов, автоматики, гидроаккумуляторов</p>
+          <div class="price-tag">от 22 000 ₽</div>
+          <button class="order-small orderBtn">Заказать</button>
+        </div>
+        <div class="service-item">
+          <div class="service-icon"><i class="fas fa-pipe-valve"></i></div>
+          <h4>Водопровод дома</h4>
+          <p>Прокладка труб, подключение сантехники, фильтрация</p>
+          <div class="price-tag">от 35 000 ₽</div>
+          <button class="order-small orderBtn">Заказать</button>
+        </div>
+        <div class="service-item">
+          <div class="service-icon"><i class="fas fa-flask"></i></div>
+          <h4>Анализ и очистка</h4>
+          <p>Лабораторный анализ воды, подбор систем фильтрации</p>
+          <div class="price-tag">от 5 500 ₽</div>
+          <button class="order-small orderBtn">Заказать</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="works-gallery">
+    <div class="container">
+      <div class="section-title">
+        <h3>Наши работы</h3>
+      </div>
+      <div class="gallery-grid">
+        <div class="work-card"><div class="work-img"><i class="fas fa-water"></i></div><p>Колодец 18 колец, д. Грибки</p></div>
+        <div class="work-card"><div class="work-img"><i class="fas fa-tint"></i></div><p>Водоснабжение коттеджа под ключ</p></div>
+        <div class="work-card"><div class="work-img"><i class="fas fa-pump-water"></i></div><p>Монтаж насосной станции</p></div>
+        <div class="work-card"><div class="work-img"><i class="fas fa-leaf"></i></div><p>Колодец с домиком</p></div>
+        <div class="work-card"><div class="work-img"><i class="fas fa-broom"></i></div><p>Чистка колодца, д. Митькино</p></div>
+        <div class="work-card"><div class="work-img"><i class="fas fa-toilet"></i></div><p>Установка септика Топас, СНТ Берёзка</p></div>
+        <div class="work-card"><div class="work-img"><i class="fas fa-tools"></i></div><p>Капитальный ремонт колодца</p></div>
+        <div class="work-card"><div class="work-img"><i class="fas fa-home"></i></div><p>Водоснабжение дачного дома</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="section-title">
+        <h3>Частые вопросы</h3>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">Сколько времени занимает копка колодца? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Обычно от 3 до 7 дней в зависимости от глубины и типа грунта.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Какая гарантия на работы? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Предоставляем гарантию 7 лет на конструкцию колодца и 2 года на оборудование.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Бывает ли, что воды нет? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Перед копкой проводим георазведку — гарантируем наличие воды, иначе вернём предоплату.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Нужно ли разрешение на копку? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">На участке ИЖС или СНТ разрешение не требуется, мы поможем с документами.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Как часто нужно чистить колодец? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Рекомендуем чистить колодец раз в 2-3 года для поддержания качества воды.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">Какой септик лучше выбрать? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer">Всё зависит от количества проживающих и типа грунта. Мы поможем подобрать оптимальный вариант.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- ГДЕ МЫ РАБОТАЕМ -->
+<section id="regions" class="regions-section">
+  <div class="container">
+    <div class="section-title">
+      <h3>Где мы работаем</h3>
+    </div>
+    
+    <div class="regions-grid">
+      <!-- Левая часть - список районов Москвы и МО -->
+      <div class="regions-list">
+        <div class="region-item highlight-moscow">
+          <i class="fas fa-star"></i>
+          <span>📍 Москва</span>
+        </div>
+        
+        <div class="region-subtitle">Московская область:</div>
+        
+        <div class="region-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Одинцовский район</span>
+        </div>
+        <div class="region-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Наро-Фоминский район</span>
+        </div>
+        <div class="region-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Рузский район</span>
+        </div>
+        <div class="region-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Новая Москва</span>
+        </div>
+          <span>Остальные районы по телефону</span>
+        </div>
+      </div>
+  </div>
+</section>
+
+  <section id="reviews" class="reviews-section">
+    <div class="container">
+      <div class="section-title">
+        <h3>Отзывы клиентов</h3>
+      </div>
+      
+      <!-- Блок с отзывами -->
+      <div class="reviews-grid" id="reviewsContainer">
+        <div class="review-card"><i class="fas fa-quote-left"></i><p>Заказывал колодец и водопровод на дачу. Всё сделали быстро и качественно. Вода отличная, напор хороший. Спасибо!</p><div class="review-author">Игорь, Истринский р-н</div></div>
+        <div class="review-card"><i class="fas fa-quote-left"></i><p>Очень довольна работой мастеров. Приехали, всё объяснили, сделали за 5 дней. Вода кристально чистая. Рекомендую!</p><div class="review-author">Елена, Дмитров</div></div>
+        <div class="review-card"><i class="fas fa-quote-left"></i><p>Профессиональный подход, фиксированная цена, без скрытых платежей. Оставили участок чистым. Спасибо команде!</p><div class="review-author">Андрей, Можайск</div></div>
+        <div class="review-card"><i class="fas fa-quote-left"></i><p>Заказал чистку колодца и установку септика. Сделали за 2 дня, всё работает отлично. Очень доволен!</p><div class="review-author">Сергей, Наро-Фоминск</div></div>
+        <div class="review-card"><i class="fas fa-quote-left"></i><p>Установили септик на даче. Теперь никаких проблем с канализацией. Рекомендую эту компанию!</p><div class="review-author">Мария, Чеховский р-н</div></div>
+        <div class="review-card"><i class="fas fa-quote-left"></i><p>Делали водоснабжение дома от колодца. Всё подключили, настроили. Вода идёт без перебоев. Спасибо!</p><div class="review-author">Дмитрий, Раменское</div></div>
+      </div>
+
+      <!-- ФОРМА ДЛЯ НОВОГО ОТЗЫВА -->
+      <div class="review-form-container">
+        <h4>Оставить отзыв</h4>
+        <form id="reviewForm" class="review-form">
+          <div class="review-form-row">
+            <input type="text" placeholder="Ваше имя" id="reviewName" required>
+            <input type="text" placeholder="Город/район" id="reviewCity" required>
+          </div>
+          <div class="review-form-row">
+            <select id="reviewRating" required>
+              <option value="">Оцените работу</option>
+              <option value="⭐">⭐</option>
+              <option value="⭐⭐">⭐⭐</option>
+              <option value="⭐⭐⭐">⭐⭐⭐</option>
+              <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+              <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+            </select>
+            <input type="text" placeholder="Услуга (например: копка колодца)" id="reviewService">
+          </div>
+          <textarea rows="3" placeholder="Ваш отзыв..." id="reviewText" required></textarea>
+          <button type="submit" class="review-submit">Отправить отзыв <i class="fas fa-arrow-right"></i></button>
+          <div id="reviewMsg" style="text-align:center; margin-top:10px;"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="formBlock" class="form-section">
+  <div class="container">
+    <div class="form-container">
+      <div class="form-left">
+        <h4>Есть вопросы?</h4>
+        <p>Оставьте заявку — наш специалист свяжется с вами в течение 30 минут и бесплатно проконсультирует</p>
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+79774448577" style="color:#0a5c36; text-decoration:none; font-weight:600;">+7 (977) 444-85-77</a>
+          </div>
+          <div>
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://wa.me/79991234567" target="_blank" style="color:#0a5c36; text-decoration:none; font-weight:600;">+7 (977) 444-85-77 (MAX)</a>
+          </div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:rashid.yuskin@yandex.ru" style="color:#0a5c36; text-decoration:none; font-weight:600;">rashid.yuskin@yandex</a>
+          </div>
+          <div>
+            <i class="fas fa-clock"></i> Ежедневно 9:00 - 21:00
+          </div>
+          <div>
+            <i class="fas fa-map-marker-alt"></i> Москва и Московская область
+          </div>
+        </div>
+      </div>
+      <div class="form-right">
+        <form id="callbackForm">
+          <input type="text" placeholder="Ваше имя" id="userName" required>
+          <input type="tel" placeholder="Номер телефона" id="userPhone" required>
+          <textarea rows="3" placeholder="Ваш вопрос или пожелания"></textarea>
+          <button type="submit">Отправить заявку</button>
+          <div id="formMsg" style="text-align:center; margin-top:10px;"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div><div class="footer-logo">Аква<span>Лес</span></div><p>Чистая вода для вашего дома с 2008 года</p></div>
+        <div><h4>Услуги</h4><ul><li>Копка колодцев</li><li>Чистка колодцев</li><li>Установка септиков</li><li>Монтаж насосов</li><li>Водопровод дома</li><li>Анализ воды</li></ul></div>
+        <div><h4>Контакты</h4><p>📞 +7 (977) 444-85-77</p><p>✉ rashid.yuskin@yandex.ru</p></div>
+        <div><h4>Адрес</h4><p>Москва и Московская область</p><p>Бесплатный выезд</p></div>
+      </div>
+      <div class="copyright">© 2025 АкваЛес. Все права защищены. Вода из глубины — здоровье вашей семьи.</div>
+    </div>
+  </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3>Бесплатная консультация</h3>
+      <p>Оставьте номер, мы перезвоним через 15 минут</p>
+      <form id="modalForm">
+        <input type="text" placeholder="Имя" required>
+        <input type="tel" placeholder="Телефон" required>
+        <button type="submit">Перезвоните мне</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
